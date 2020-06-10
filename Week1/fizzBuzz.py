@@ -1,17 +1,17 @@
 # -*- coding: utf-8 -*-
-"""
-Spyder Editor
-
-This is a temporary script file.
-"""
+fizzBuzz_list = [] 
 for i in range(1,100): 
     if i%3 == 0: 
-        print(i, "fizz")
+        fizzBuzz_list.append("fizz")
     if i%5 ==0:
-        print(i, "buzz")
+        fizzBuzz_list.append( "buzz")
     if i%15==0:
-        print(i, "fizzBuzz")
+       fizzBuzz_list.append("fizzBuzz")
     else:
-        print(i, "nothing")
+        fizzBuzz_list.append("nothing")
+print(fizzBuzz_list)
+print("buzz", fizzBuzz_list.count("buzz"))
+print("fizz", fizzBuzz_list.count("fizz"))
+print("fizzBuzz", fizzBuzz_list.count("fizzBuzz"))
     
 
