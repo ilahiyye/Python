@@ -4,11 +4,11 @@ randomList = ["rock", "scissors", "paper"]
 u = 0
 comp = 0
 def randomChoise():
-    return random.shoise(randomList)
+    return random.choice(randomList)
 
 while True:
     user = input("input 'rock', 'scissors', 'paper' or 'exit'")
-    computer = randomShoise()
+    computer = randomChoice()
     if ((user == 'rock' and computer == 'scissors') or (user == "scissors" and computer == "paper")):
         u = +1
         print("User wins!")
