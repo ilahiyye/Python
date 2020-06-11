@@ -20,8 +20,10 @@ while True:
 
     else:
         print("Error: Wrong input!")
-
+    
+    print(f'Total total number of games {u + comp}')
     print(f'Result: User - {u} : Computer - {comp}')
+    
 
     
 
