@@ -16,7 +16,7 @@ while True:
 
         print(f'Your choise: {user}\nComputer choice: {computer}')
         print("Human wins!")
-        print(f'Games Played: {u + comp + tie}, Human: {u}, Computer: {comp}, Tie: {tie}')
+        print(f'Games Played: {u + comp + tie}\tHuman: {u}\tComputer: {comp}\tTie: {tie}')
     
     elif ((user == 'rock' and computer == "paper") or (user == 'scissors' and computer == 'rock')or (user == 'paper' and computer == 'scissors')):
         
@@ -24,7 +24,7 @@ while True:
 
         print(f'Your choise: {user}\nComputer choice: {computer}')
         print("Coputer wins!")
-        print(f'Games Played: {u + comp + tie}, Human: {u}, Computer: {comp}, Tie: {tie}')
+        print(f'Games Played: {u + comp + tie}\tHuman: {u}\tComputer: {comp}\tTie: {tie}')
     
     elif (user == computer):
         
@@ -32,7 +32,7 @@ while True:
 
         print(f'Your choise: {user}\nComputer choice: {computer}')
         print("Tie!")
-        print(f'Games Played: {u + comp + tie}, Human: {u}, Computer: {comp}, Tie: {tie}')
+        print(f'Games Played: {u + comp + tie}\tHuman: {u}\tComputer: {comp}\tTie: {tie}')
 
     elif (user == "exit"):
         print("Your choice: Exit\nExiting program")
