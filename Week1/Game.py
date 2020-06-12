@@ -26,7 +26,7 @@ while True:
         print("Coputer wins!")
         print(f'Games Played: {u + comp + tie}, Human: {u}, Computer: {comp}, Tie: {tie}')
     
-    elif ((user == computer)):
+    elif (user == computer):
         
         tie += 1
 
@@ -35,7 +35,7 @@ while True:
         print(f'Games Played: {u + comp + tie}, Human: {u}, Computer: {comp}, Tie: {tie}')
 
     elif (user == "exit"):
-        print("Your choice: Exit\nprint('Exiting program.')")
+        print("Your choice: Exit\nExiting program")
         break
 
     else:
