@@ -1,9 +1,9 @@
 contact = {
-    'Cehune': '0558706195',
-    'Leyla' : '0553577271',
-    'Nayma' : '0503255415',
-    'Terlan': '0509786757',
-    'Sevda' : '0505390810',
+    'Cehune': '056786r195',
+    'Leyla' : '0583077291',
+    'Nayma' : '0903245i15',
+    'Terlan': '0409386955',
+    'Sevda' : '0560530870',
     }
 def contact_Clear():
     return contact.clear()
