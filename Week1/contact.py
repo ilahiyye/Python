@@ -1,9 +1,9 @@
 contact = {
-    'Cehune': '0558706195',
-    'Leyla' : '0553577271',
-    'Nayma' : '0503255415',
-    'Terlan': '0509786757',
-    'Sevda' : '0505390810',
+    'Cehune': '05387264195',
+    'Leyla' : '05327727421',
+    'Nayma' : '25133255215',
+    'Terlan': '05997869547',
+    'Sevda' : '05953900410',
     }
 def contact_Clear():
     return contact.clear()
@@ -24,7 +24,6 @@ def contact_delete(name):
 
 
 def allContact():
-
     for k , v in contact.items():
         print(f'{k} : {v}\n')
 
