@@ -8,15 +8,15 @@ contact = {
 def contact_Clear():
     return contact.clear()
 
-def contact_Add(name, number):
+def contact_Add(name='None', number='None'):
     contact[name] = f'{number},'
     return print(f"{name} add to contact")
 
     
-def contact_SearchNumber(name):
+def contact_SearchNumber(name='None'):
     return contact.setdefault(name, 'No results')
 
-def contact_delete(name):
+def contact_delete(name='None'):
     if name in contact.keys():
         del contact[name] 
         return True
