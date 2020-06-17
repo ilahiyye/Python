@@ -1,9 +1,12 @@
-if __name__ == '__main__':
 
-    number = int(input('length triangle: '))
-    simvol = input('input simvol: ')
+def triangle(n=4, s="*"):
+    for i in range(0, n):
+        print(" "*(n-i) + s*i + s*(i+1))
+
+number = int(input('length triangle: '))
+simvol = input('input simvol: ')
+
+triangle(number, simvol)
     
-    for i in range(0, number):
-        
-      print(" "*(number-i) + simvol*i + simvol*(i+1))
+    
             
