@@ -24,9 +24,11 @@ for word in words:
         else:
             letter_dict[letter] = 1
 
-print(f"Frequent letters:'{max(letter_dict, key=letter_dict.get)}'") #dict. deki en bouk value tapir
+let = max(letter_dict, key=letter_dict.get) #dict. deki en bouk value tapir
+w = max(word_dict, key=word_dict.get)
+print(f"Frequent letters:'{let}'-{letter_dict.get(let)}") #hemin herin valusunu get metodu ile aliriq
 print (f'Count: {len(words)} ')
-print(f'Frequent word: {max(word_dict, key=word_dict.get)}')
+print(f'Frequent word: {w} - {word_dict.get(w)}')
     
 
 
