@@ -7,11 +7,6 @@ content = content.upper()
 content = content.translate({ord(i): None for i in ''',.;:-)(_"'''})   
 words = content.split()
 
-"""for word in words:
-    if ("," in word):
-        str(word).replace(',','')
-        word.translate({ord(i): None for i in ".;:"})
-print (words)"""
 
 word_dict = {}
 letter_dict = {}
@@ -35,8 +30,8 @@ print(f'Frequent word: {max(word_dict, key=word_dict.get)}')
     
 
 
-for i, j in letter_dict.items():
-    print(i, ":",  j)
+#for i, j in letter_dict.items():
+    #print(i, ":",  j)
 
        
 
