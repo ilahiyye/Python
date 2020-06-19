@@ -5,7 +5,7 @@ with open(path, 'r') as file:  #bu cur yailisda file.close() yazmaga ehtiyac qal
     
 sentences = content.split('.')
 content = content.upper()
-content = content.translate({ord(i): None for i in ''',.;:-)(_"'''})   
+content = content.translate({ord(i): None for i in ''',.;:-)(_"'''})   #file. daki ,.;:-)(_" durgu isarelerini silecek
 words = content.split()
 
 
