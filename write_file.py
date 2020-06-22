@@ -3,7 +3,7 @@ path = "C:/Users/user/Desktop/Tech_Python/Week2/story.txt"
 with open(path, 'r') as file:  #bu cur yailisda file.close() yazmaga ehtiyac qalmir
     content = file.read()       #readlines() yazdiqda ise metni bir listin icine yazdirir
     
-sentences = content.split('.')
+
 content = content.upper()
 content = content.translate({ord(i): None for i in ''',.;:-)(_"'''})   #file. daki ,.;:-)(_" durgu isarelerini silecek
 words = content.split()
@@ -26,7 +26,7 @@ for word in words:
             letter_dict[letter] = 1
 
 let = max(letter_dict, key=letter_dict.get) #dict. deki en bouk value tapir
-w = max(word_dict, key=word_dict.get)
+w = max(word_dict, key=word_dict.get)       #herfler dic. en boyuk valu tapir
 
 with open(path, 'a') as f:
     f.write('\n\nFrequent letters ' + str(let) + ' - ' + str(letter_dict.get(let)) + '\n') #hemin herfin valusunu get metodu ile aliriq
