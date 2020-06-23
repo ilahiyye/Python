@@ -1,6 +1,3 @@
-# document adinda papqa yaradiriq, icerisinde get request ile cekdiyimiz datani text.txt fayli yaradir
-# ve datani ve bu gune olan tarixi icine yazir. Eger artiq bele bir papqa ve fayl varsa onda proqram isledikde onlari silecek
-
 import source
 import os
 import time
@@ -17,6 +14,6 @@ if (os.path.exists('document')):
     source.creat_file(data, content)
     print("Please, open 'document/text.txt file' ")
 else:
-    print("Remove document end text.txt file")
+    print("Removed document/text.txt file")
 
 
